@@ -39,7 +39,11 @@ namespace SwitchStatements
                     case "baseball":
                         Console.WriteLine("baseball is a very fun sport to play! Who do you think will win the world series?!");
                     Console.ReadLine();
-                        break;
+
+                    Console.WriteLine("YEAAHHH! GO BRAVOS");
+              
+                   
+                    break;
                     case "golf":
                         Console.WriteLine("Golf is an interesting sport!");
                         break;
