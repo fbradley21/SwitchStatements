@@ -24,8 +24,29 @@ namespace SwitchStatements
                 default:
                     Console.WriteLine($"Oh wow! I haven't taken that subject before. {subject} sounds fun!");
                     break;
+            }
 
+
+                Console.WriteLine("So what is your favorite sport?");
+
+                var sport = Console.ReadLine();
+
+                switch (sport.ToLower())
+                {
+                    case "football":
+                        Console.WriteLine("Football is an exciting sport! Roll Tide!");
+                        break;
+                    case "baseball":
+                        Console.WriteLine("baseball is a very fun sport to play! Who do you think will win the world series?!");
+                    Console.ReadLine();
+                        break;
+                    case "golf":
+                        Console.WriteLine("Golf is an interesting sport!");
+                        break;
+                    default:
+                        Console.WriteLine($"Oh wow! I haven't taken that subject before. {sport} sounds fun!");
+                        break;
+                }
             }
         }
     }
-}
